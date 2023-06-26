@@ -1,0 +1,137 @@
+* {
+    font-family: 'Century Gothic', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;   
+}
+.TopHeader { 
+    background-color: #aee6c45b;
+    height: 50px;
+    opacity: 70%;
+    display:flex;
+    margin: 0;
+    justify-content:right;  
+    position:fixed;
+    width: 100%;
+    z-index: 100;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+a{
+    color: black;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+}
+#LogoTextHeader {
+    color: #ebf5ef;
+    
+    margin: auto 950px auto auto;
+      
+}
+#headerButton {
+    display: flex;
+    margin: 0;
+    padding-right: 10%;
+    white-space: nowrap;
+}
+.MenuHeader {
+    font-weight: bold;
+    padding: 13px 20px 0 20px;
+    cursor: pointer; 
+}
+.MenuHeader:hover{
+    background-color: #ffffff69;
+}
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 0;
+    padding: 0;
+    width: 100%;
+    height: 356px;
+    background-color: rgba(255, 255, 255, 0.459);   
+}
+.footer-text {
+    margin: auto;
+    font-size: 20px;
+    justify-self: center;
+    width: 50%;
+    padding: 50px 0 0 60px;
+    color: #7b8079;
+}
+.footer-social {
+    margin: auto auto auto 0;
+    font-size: 20px;
+    justify-self: center;
+    padding: 40px 120px 0 300px;
+    width: 50%;
+    text-align: start;
+    color: #7b8079;
+}
+.footer-social>img {
+    cursor: pointer;
+    padding-top: 20px;
+    width: 260px;
+    opacity: 0.6;
+}
+.profile-box {
+    visibility: hidden; 
+    padding: 0;
+    margin: 0;
+    border-radius: 30px;
+    width: 278px;
+    height: 370px;
+    position: fixed;
+    display: block;
+    z-index: 100;
+    background-color: #e9f0e9;
+    top: 50px;
+    right: 180px;
+}
+.profile-header {
+    font-size: 17px;
+    width: 100%;
+    padding: 20px 10px 5px 10px;
+    display: flex;
+    height: 70px;
+    text-align: left;
+    justify-content: space-between;
+}
+.profile-header-li {
+    font-size: 15px;
+    width: 100%;
+    padding: 0 10px 0 10px;
+    margin: 0;
+    display: flex;
+    height: 50px;
+    text-align: left;
+    align-content: center;
+    cursor: pointer;
+    flex-wrap: wrap;
+    color: #7b8079;
+}
+.profile-box>hr{
+    padding: 0;
+    margin: 0;
+}
+.profile-header>img {
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.4;
+}
+.profile-header-li:hover {
+    background-color: rgba(255, 255, 255, 0.603);
+}
